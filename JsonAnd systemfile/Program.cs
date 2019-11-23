@@ -12,7 +12,12 @@ namespace JsonAnd_systemfile
     class Program
     {
         static void Main(string[] args)
+
         {
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.Clear();
+            /////////////////////////////////////////////// 
             Class_cash saveCash = new Class_cash("MEMBERCASH.TSHPANDA", "TheDirectory");
             string JsonFromCash = saveCash.TextFromFile();
             List<ClassToCash> ListOfMembers;
@@ -28,7 +33,7 @@ namespace JsonAnd_systemfile
                
             }
 
-
+            ///////////////////////////////////////////////////
             Console.Write($"Tedad afrade mojood  {ListOfMembers.Count} Mibashad EzafeKardane nafare jadid \"y\"");
             string flag = Console.ReadLine().ToLower();
             if (flag == "y")
@@ -36,7 +41,7 @@ namespace JsonAnd_systemfile
 
                 Console.Write("Chand nafar Register Beshavand ? ");
                 int Tedad = Convert.ToInt32(Console.ReadLine());
-                for (int i = 0; i < Tedad; i++)
+                for (int i = 0 ; i < Tedad; i++)
                 {
                     ClassToCash cash = new ClassToCash();
                     cash.id = i;
@@ -46,6 +51,7 @@ namespace JsonAnd_systemfile
                 }
 
             }
+
             Console.WriteLine("Members ====> ");
             for (int i = 0; i < ListOfMembers.Count; i++)
             {
@@ -70,6 +76,9 @@ namespace JsonAnd_systemfile
             Console.ReadLine();
            
         }
+
+
+        /////////////////////////////////////////////////////////////////
 
         public static int SaveCash(List<ClassToCash> TOCASH)
         {

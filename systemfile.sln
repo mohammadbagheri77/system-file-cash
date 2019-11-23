@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "systemfile", "systemfile\sy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonAnd systemfile", "JsonAnd systemfile\JsonAnd systemfile.csproj", "{919BAC6C-8C3D-4500-B9BB-71F0AE7F3F74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{DBBFF31B-CCF3-409C-9416-A8C1521923A6}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{919BAC6C-8C3D-4500-B9BB-71F0AE7F3F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{919BAC6C-8C3D-4500-B9BB-71F0AE7F3F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{919BAC6C-8C3D-4500-B9BB-71F0AE7F3F74}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DBBFF31B-CCF3-409C-9416-A8C1521923A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DBBFF31B-CCF3-409C-9416-A8C1521923A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DBBFF31B-CCF3-409C-9416-A8C1521923A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DBBFF31B-CCF3-409C-9416-A8C1521923A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

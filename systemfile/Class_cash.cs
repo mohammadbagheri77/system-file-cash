@@ -96,7 +96,7 @@ namespace systemfile
             {
                 return -1;
             }
-
+           // return 0;
         }
         /// <summary>
         /// This Method Reads All Line Of A  File .
@@ -113,7 +113,7 @@ namespace systemfile
                 return result;
             }
 
-            return result = "";
+            return result ;
         }
 
 
